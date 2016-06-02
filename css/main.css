@@ -1,0 +1,481 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+}
+.hidden {
+	display: none;
+}
+.carousel img {
+}
+.parallax {
+	background-attachment: fixed;
+	background-position: 50% 0;
+	position: relative;
+}
+input, button{
+	outline: none;
+}
+/*Начало моего CSS*/
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*Начало css для меню---------------------------------------*/
+.top_heder{
+	
+}
+.top_menu{
+	width: 100%;
+	top: 0;
+	position: fixed;
+	z-index: 500;
+	margin: 0;
+	padding: 0;
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0, #555555),
+		color-stop(1, #333333)
+		);
+	background-image: -o-linear-gradient(bottom, #555555 10%, #333333 100%);
+	background-image: -moz-linear-gradient(bottom, #555555 10%, #333333 100%);
+	background-image: -webkit-linear-gradient(bottom, #555555 10%, #333333 100%);
+	background-image: -ms-linear-gradient(bottom, #555555 10%, #333333 100%);
+	background-image: linear-gradient(to bottom, #555555 10%, #333333 100%);
+	
+	box-shadow: 0 4px 3px rgba(0,0,0,0.6);
+}
+.menu{
+	position: relative;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+.menu ul{
+	list-style-type: none;
+	float: left;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0;
+	padding: 0;
+}
+.menu a{
+	font-size: 1em;
+	font-family: "ComfortaaLight";
+	color: #fff;
+	display: block;
+	text-decoration: none;
+
+	-webkit-transition: all 0.25s;
+	-o-transition: all 0.25s;
+	transition: all 0.25s;
+
+}
+.menu a:hover{
+	color: #f39;
+	text-decoration: underline;
+}
+.menu li{
+	display: inline-block;
+	padding: 10px 5px;
+}
+.con{
+	font-size: 1.1em;
+}
+.btn_menu{
+	color: #fff;
+	padding: 1px 1px 1px 3px;
+	background-color: #1163F0;
+	border-radius: 5px;
+	border: none;
+	font-size: 1em;
+	font-family: "ComfortaaLight";
+	display: inline-block;
+	text-decoration: none;
+	outline: none;
+	z-index: 10;
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0, #0076FC),
+		color-stop(1, #00519D)
+		);
+	background-image: -o-linear-gradient(bottom, #0076FC 0%, #00519D 100%);
+	background-image: -moz-linear-gradient(bottom, #0076FC 0%, #00519D 100%);
+	background-image: -webkit-linear-gradient(bottom, #0076FC 0%, #00519D 100%);
+	background-image: -ms-linear-gradient(bottom, #0076FC 0%, #00519D 100%);
+	background-image: linear-gradient(to bottom, #0076FC 0%, #00519D 100%);	
+	
+	/*box-shadow: 0 0 0 60px rgba(0,0,0,0) inset, .1em .1em .2em #800;
+  background: linear-gradient(#FB9575, #F45A38 48%, #EA1502 52%, #F02F17);
+  */
+  /*box-shadow: inset 0 1px 0px #0077BB;*/
+  box-shadow:
+  0 1px rgba(255,255,255,.2) inset,
+  0 3px 5px rgba(0,1,6,.5),
+  0 0 1px 1px rgba(0,1,6,.2);
+  text-shadow: 0 -1px 1px #777;
+}
+.btn_menu:hover{
+	box-shadow:
+	0 2px rgba(255,255,255,.3) inset,
+	0 4px 6px rgba(0,1,6,.6),
+	0 0 2px 2px rgba(0,1,6,.3);
+	top: -0.1em;
+	left: -0.1em;
+}
+.btn_menu:active{
+	top: 0.1em;
+	left: 0.1em;
+	box-shadow:
+	0 0 1px rgba(0,0,0,.5) inset,
+	0 2px 3px rgba(0,0,0,.5) inset,
+	0 1px 1px rgba(255,255,255,.1);
+	/*outline:none;*/
+}
+/*Меню телефон---------------------------------------*/
+.menu_phone{
+	float: right;
+	color: #fff;
+	font-size: 1.1em;
+	font-family: "ComfortaaLight";
+	white-space: nowrap;/*/Отображение пробелов*/
+	display: inline-block;
+	vertical-align: middle;
+	padding: 10px 0;
+
+}
+/*Начало css для подменю---------------------------------------*/
+.below_menu{
+	display: block;
+	margin: 0;
+	top: 0;
+	padding: 0;
+	width: 100%;
+	height: 30px;
+}
+/*Начало css для main---------------------------------------*/
+.top_main{
+	margin-top: 5px;
+}
+/*Начало css для slide+form---------------------------------------*/
+.slider_form{
+	border-bottom: 1px solid rgba(153,153,153,.4);
+	min-height: 85vh;
+	padding: 2vh 0;
+	margin: 0 5px;
+} 
+.slider{
+	-webkit-margin-before: 1.283em;
+    -webkit-margin-after: 1.283em;
+}
+.form{
+	display: block;
+}
+/*Начало css для slider ---------------------------------------*/
+.owl-carousel {
+	width: 100%;
+}
+.carousel{
+	margin: 0 auto;
+	width: 60%;
+	
+}
+.slide_item{
+	width: 100%;
+	display: block;
+	
+}
+/*Начало css для form ---------------------------------------*/
+.rubric{
+	padding-bottom: 10px;
+	border-bottom: 1px solid rgba(153,153,153,.4);
+}
+.choice{
+	display: block;
+	padding:10px 0;
+	border-bottom: 1px solid rgba(153,153,153,.4);
+	/*background-color: rgb(255,250,245);*/
+	margin: 0;
+}
+.ch_color, .ch_size_bra,
+, .ch_size_cup{
+	display: inline-block;
+}
+.choice form{
+	display: block;
+	position: relative;
+	float: right;
+	vertical-align: middle;
+}
+/*.line{
+	display: inline-block;
+	vertical-align: center;
+	float: right;
+}*/
+.line span{
+	display: block;
+	position: relative;
+	vertical-align: middle;
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+.line label{
+	display: inline-block;
+	position: relative;
+	max-width: 40px;
+	min-width: 35px;
+	height: 35px;
+	/*border: 2px solid #bbb;*/
+	overflow: hidden;
+	margin: 3px 15px 5px 0;
+}
+.line label img{
+	border: 2px solid #ccc;
+	width: 100%;
+	height: auto;
+	max-width: 35px;
+	max-height: 35px;
+}
+
+.line label:hover > img{
+	border: 2px solid #333;
+}
+.line label > input:checked + img{
+	border: 2px solid #f39;
+	-webkit-box-shadow:  0px 0px 9px rgba(225,225,255,0.5) inset;
+	box-shadow:  0px 0px 9px rgba(225,225,255,0.5) inset;
+}
+.line label > input:disabled +img{
+	opacity: 0.4;
+}
+.line label > input:disabled:hover +img{
+	border: 2px solid #ccc;
+}
+.line span{
+	display: block;
+	text-align: center;
+	vertical-align: bottom;
+	padding: 5px;
+	border: 2px solid #ccc;
+	min-width: 35px;
+	height: 35px;
+}
+.line label:hover > span{
+	border: 2px solid #333;
+}
+.line label > input:checked + span{
+	border: 2px solid #f39;
+	-webkit-box-shadow:  0px 0px 9px rgba(225,225,255,0.5) inset;
+	box-shadow:  0px 0px 9px rgba(225,225,255,0.5) inset;
+}
+.line label > input:disabled + span{
+	opacity: 0.4;
+}
+.line label > input:disabled:hover + span{
+	/*opacity: 0.4;*/
+	border: 2px solid #ccc;
+}
+.line input{
+	/*width: 100%;*/
+	/*height: 100%;*/
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	outline: 0;
+	margin: 0;
+	border: 0;
+	/*overflow: hidden;*/
+}
+.buy_form {
+	display: block;
+	width: 100%;
+	margin: 0;
+	/*background-color: rgb(230,230,230);/*#fed;*/
+	padding: 10px 0;
+	border-bottom: 1px solid rgba(153,153,153,.4);
+}
+.buy_form input[type="text"],
+.buy_form input[type="tel"]{
+	border: 0;
+	display: block;
+	background: transparent;
+	border-bottom: solid 2px #f39;
+	padding: 8px 0;
+	font-size: 16px;
+	font-weight: 300;
+	width: 70%;
+	margin: 3px auto 0;
+	margin-top: 3px;
+	color: #f39;
+	vertical-align: middle;
+	-webkit-transition: padding 1s;
+	/* For Safari 3.1 to 6.0 */
+	transition: padding 1s;
+	-webkit-transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-ms-transition: color 0.5s;
+	-o-transition: color 0.5s;
+	transition: color 0.5s;
+
+}
+.buy_form input:hover::-webkit-input-placeholder, 
+.buy_form input:focus::-webkit-input-placeholder {
+	/*text-align: right;*/
+	color: rgba(0,0,0,0.3);
+}
+/*.buy_form input[type="button"]*/
+.buy_form .btn_zakaz {
+	padding: 8px 0;
+	font-size: 16px;
+	font-weight: 300;
+	color: #F70D8E;
+	text-align: center;
+	vertical-align: middle;
+	display: block;
+	margin: 8px auto 5px;
+	width: 70%;
+	user-select: none;
+	z-index: 10;
+	border: 1px solid rgba(0,0,0,.1);
+	border-radius: 3px;
+	background: rgb(245,245,245) linear-gradient(#f4f4f4, #f1f1f1);
+	transition: all .218s ease 0s;
+}
+.btn_zakaz:hover{
+	border: 1px solid rgb(198,198,198);
+	background: #f7f7f7 linear-gradient(#f7f7f7, #f1f1f1);
+	box-shadow: 0 2px 3px rgba(0,0,0,.4);
+}
+.btn_zakaz:active{
+	border: 1px solid rgb(204,204,204);
+	background: rgb(238,238,238) linear-gradient(rgb(238,238,238), rgb(224,224,224));
+	box-shadow: 0 2px 2px rgba(0,0,0,.4) inset;
+}
+.counter{
+	padding: 10px 0;
+}
+/*Начало css для form_info ---------------------------------------*/
+.form_info{
+	display: block;
+	width: 100%;
+	margin: 5px auto;
+	padding-bottom: 5px;
+	border-bottom: 1px solid rgba(153,153,153,.4);
+}
+/*.hinfo{
+	display: inline-block;
+	width: 100%;
+	vertical-align: middle;
+}*/
+.pinfo{
+	display: block;	
+}
+.hinfo h3{
+	display: block;
+	float: left;
+}
+.hinfo span{
+	display: block;
+	float: right;
+	font-size: 1.47em;
+	-webkit-margin-before: .71em;
+	-webkit-margin-after: .71em;
+	-webkit-margin-start: .71em;
+	-webkit-margin-end: .71em;
+	cursor: pointer;
+}
+.hinfo button:hover > span{
+	color: #f39;
+	text-shadow: 0px 0px 5px #f39;/*rgba(0,0,0,0.5); /*#f39;*/
+}
+.IcoDown{
+	display: block;
+	float: right;
+	border:none;
+	background-color: transparent;
+
+}
+/*Начало css для video_sentence ---------------------------------------*/
+.video_sentence{
+	border-bottom: 1px solid rgba(153,153,153,.4);
+	/*min-height: 85vh;*/
+	padding: 2vh 0;
+	margin: 0 5px;
+}
+
+/*Начало css для video ---------------------------------------*/
+
+.video{
+	width: 100%;
+	min-height: 50vh;
+	display: block;
+	position: relative;
+
+}
+.video iframe{
+	display: block;
+	width: 100%;
+	margin: 10px 0;
+}
+/*Начало css для sentence ---------------------------------------*/
+
+/*Начало css для advantage ---------------------------------------*/
+/*Начало css для list_avails ---------------------------------------*/
+
+/*Начало css для reviews_guarantees ---------------------------------------*/
+/*Начало css для reviews ---------------------------------------*/
+.reviews img{
+	width:100%;
+
+}
+/*Начало css для guarantees ---------------------------------------*/
+
+/*Начало css для target_action ---------------------------------------*/
+/*Начало css для target ---------------------------------------*/
+/*Начало css для action ---------------------------------------*/
+
+/*Начало css для bottom_footer ---------------------------------------*/
+.greyblock{
+	display: block;
+	width: 100%;
+	min-height: 40vh;
+	background-color: #e9e9e9;
+	/*border-top:  8px dotted #fff;*/
+	box-shadow: 0px 3px 5px rgba(255,255,255,0.5) inset; /* Параметры тени */
+	margin-top: 5px;
+
+}
+.top_footer{
+	display: block;
+	height: 100%;
+
+}
